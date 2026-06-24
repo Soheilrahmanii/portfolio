@@ -751,16 +751,17 @@ footer {
 
   /* Hero — stack vertically and center */
   .hero-wave { display: none; }
-  .hero-content { padding: 28px 20px; align-items: center; }
+  #hero { justify-content: center; }
+  .hero-content { padding: 28px 20px; align-items: center; width: 100%; }
   .hero-social-row { justify-content: center; }
   .hero-profile-row { flex-direction: column; align-items: center; gap: 24px; }
-  .hero-photo-clip { width: 150px; height: 150px; }
+  .hero-photo-clip { width: 200px; height: 200px; }
   .hero-name-block { align-items: center; text-align: center; }
   .hero-cta { justify-content: center; flex-wrap: wrap; }
   h1 { font-size: 2rem; }
 
-  /* Timeline */
-  .tl-item { grid-template-columns: 0 28px 1fr; }
+  /* Timeline — drop the hidden date column, use node + content only */
+  .tl-item { grid-template-columns: 24px 1fr; gap: 0 12px; }
   .tl-left  { display: none; }
   .tl-right { padding: 16px 18px; }
 
