@@ -1,0 +1,5 @@
+# Reference assets
+Screenshot*.png
+
+# Claude Code
+.claude/

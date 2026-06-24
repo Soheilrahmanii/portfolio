@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Soheil — DevOps / Platform Engineer. Tech is a mindset." />
+  <title>Soheil · DevOps / Platform Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Nav ─────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand"></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Hero ────────────────────────────────────── -->
+  <section id="hero">
+    <!-- wave ribbon (JS-generated) -->
+    <svg id="heroWave" class="hero-wave" viewBox="0 0 700 600" preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"></svg>
+
+    <div class="hero-content">
+      <div class="hero-social-row">
+        <a href="https://github.com/Soheilrahmanii" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/soheil-rahmani-devops" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:saborahmani@gmail.com" aria-label="Email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-profile-row">
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-clip">
+            <img src="profile.png" alt="Soheil" class="hero-photo" />
+          </div>
+        </div>
+        <div class="hero-name-block">
+          <h1>Soheil Rahmani</h1>
+          <p class="hero-role">DevOps / Platform Engineer</p>
+          <p class="hero-slogan">"Tech is a mindset"</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-glow">View My Work</a>
+            <a href="#contact"  class="btn btn-ghost">Say Hello</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── About ───────────────────────────────────── -->
+  <section id="about">
+    <div class="container">
+      <div class="section-eyebrow fade-in">
+        <span class="eyebrow-num">01.</span> About Me
+      </div>
+      <div class="about-layout fade-in">
+        <div class="about-card">
+          <div class="about-counters">
+            <div class="counter">
+              <span class="count-num" data-target="4">0</span><span class="count-plus">+</span>
+              <span class="count-label">Years Experience</span>
+            </div>
+            <div class="counter">
+              <span class="count-num" data-target="20">0</span>
+              <span class="count-label">Core Skills</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>I'm a <strong>DevOps & Platform Engineer</strong> with 4+ years of experience turning complex infrastructure challenges into clean, automated solutions.</p>
+          <p>My focus is on <strong>reliability</strong> and <strong>automation</strong> — designing cloud-native platforms that scale, CI/CD pipelines that ship with confidence, and infrastructure that treats code as the single source of truth.</p>
+          <p>Whether it's orchestrating workloads on <strong>Kubernetes</strong>, provisioning environments with <strong>Terraform</strong>, or building end-to-end observability stacks, I care deeply about making engineering platforms fast, resilient, and a joy to work with.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ──────────────────────────────────── -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-eyebrow fade-in">
+        <span class="eyebrow-num">02.</span> Tech Stack
+      </div>
+
+      <div class="stack-grid fade-in">
+
+        <div class="stack-group">
+          <h3 class="stack-label">Cloud</h3>
+          <div class="stack-pills">
+            <span class="pill" style="--c:#FF9900">AWS</span>
+            <span class="pill" style="--c:#0078D4">Azure</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3 class="stack-label">Containers &amp; Orchestration</h3>
+          <div class="stack-pills">
+            <span class="pill" style="--c:#326CE5">Kubernetes</span>
+            <span class="pill" style="--c:#2E6DA4">Helm</span>
+            <span class="pill" style="--c:#2496ED">Docker</span>
+            <span class="pill" style="--c:#1A9FD5">Docker Compose</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3 class="stack-label">Infrastructure as Code</h3>
+          <div class="stack-pills">
+            <span class="pill" style="--c:#7B42BC">Terraform</span>
+            <span class="pill" style="--c:#EE0000">Ansible</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3 class="stack-label">CI / CD &amp; GitOps</h3>
+          <div class="stack-pills">
+            <span class="pill" style="--c:#2088FF">GitHub Actions</span>
+            <span class="pill" style="--c:#FC6D26">GitLab CI</span>
+            <span class="pill" style="--c:#EF7B4D">ArgoCD</span>
+            <span class="pill" style="--c:#0078D4">Azure DevOps</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3 class="stack-label">Observability</h3>
+          <div class="stack-pills">
+            <span class="pill" style="--c:#E6522C">Prometheus</span>
+            <span class="pill" style="--c:#F46800">Grafana</span>
+            <span class="pill" style="--c:#8B5CF6">Loki</span>
+            <span class="pill" style="--c:#00BFB3">ELK Stack</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3 class="stack-label">Systems &amp; Scripting</h3>
+          <div class="stack-pills">
+            <span class="pill" style="--c:#E8C44A">Linux Administration</span>
+            <span class="pill" style="--c:#4B8BBE">Python</span>
+            <span class="pill" style="--c:#89E051">Bash Scripting</span>
+            <span class="pill" style="--c:#00adef">Network Management</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Projects ────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-eyebrow fade-in">
+        <span class="eyebrow-num">03.</span> Projects
+      </div>
+      <div class="projects-grid">
+
+        <article class="pcard fade-in">
+          <div class="pcard-mesh" style="--m1:#EF7B4D;--m2:#2088FF"></div>
+          <div class="pcard-body">
+            <span class="pcard-num">01</span>
+            <h3>GitOps Platform</h3>
+            <p>Self-service developer environment provisioning powered by GitHub, Kubernetes, ArgoCD and Terraform.</p>
+            <div class="pcard-tags">
+              <span>Kubernetes</span><span>ArgoCD</span><span>Terraform</span><span>Python</span>
+            </div>
+          </div>
+          <div class="pcard-foot">
+            <a href="https://github.com/Soheilrahmanii/gitops-platform" target="_blank" rel="noopener noreferrer" class="pcard-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="pcard fade-in">
+          <div class="pcard-mesh" style="--m1:#7B42BC;--m2:#F46800"></div>
+          <div class="pcard-body">
+            <span class="pcard-num">02</span>
+            <h3>Postmortem AI</h3>
+            <p>AI-powered blameless postmortem generator. Free, no backend, runs entirely in the browser. Powered by Llama 3.3 70B via Groq.</p>
+            <div class="pcard-tags">
+              <span>AI</span><span>JavaScript</span><span>Groq</span><span>Llama</span>
+            </div>
+          </div>
+          <div class="pcard-foot">
+            <a href="https://github.com/Soheilrahmanii/postmortem-ai" target="_blank" rel="noopener noreferrer" class="pcard-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+
+        <article class="pcard fade-in">
+          <div class="pcard-mesh" style="--m1:#00B4D8;--m2:#00C896"></div>
+          <div class="pcard-body">
+            <span class="pcard-num">03</span>
+            <h3>Postgres Kube</h3>
+            <p>Kubernetes Operator that automates deploying and managing PostgreSQL clusters using a simple CRD — handles provisioning, scaling, version upgrades, backups, and safe deletion.</p>
+            <div class="pcard-tags">
+              <span>Kubernetes</span><span>Go</span><span>Kubebuilder</span><span>CRD</span><span>Prometheus</span>
+            </div>
+          </div>
+          <div class="pcard-foot">
+            <a href="https://github.com/Soheilrahmanii/postgres-kube" target="_blank" rel="noopener noreferrer" class="pcard-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Experience ──────────────────────────────── -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-eyebrow fade-in">
+        <span class="eyebrow-num">04.</span> Experience
+      </div>
+      <div class="timeline">
+
+        <div class="tl-item fade-in">
+          <div class="tl-left">
+            <span class="tl-date">May 2024 – Jul 2026</span>
+          </div>
+          <div class="tl-line">
+            <div class="tl-node"></div>
+          </div>
+          <div class="tl-right">
+            <h3>Behsa Corp</h3>
+            <span class="tl-role">DevOps Engineer</span>
+            <ul>
+              <li>Managed <strong>Cloud</strong> infrastructure supporting high-availability production workloads.</li>
+              <li>Managed large-scale <strong>Kubernetes</strong> infrastructure supporting <strong>50+</strong> microservices and <strong>60M+</strong> users.</li>
+              <li>Reduced manual effort <strong>~40%</strong> via <strong>Ansible</strong> &amp; <strong>Terraform</strong> automation.</li>
+              <li>Cut deployment time <strong>~30%</strong> with <strong>CI/CD</strong> pipelines.</li>
+              <li>Maintained <strong>~99.9%</strong> uptime using HA, monitoring, and fast <strong>incident response</strong>.</li>
+              <li>Participated in on-call rotation, supporting <strong>24/7 maintenance</strong> and reliability of critical systems.</li>
+              <li>Improved reliability with standardized documents (<strong>SOPs</strong>, <strong>MOPs</strong>, <strong>Postmortems</strong>).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item fade-in">
+          <div class="tl-left">
+            <span class="tl-date">Aug 2022 – Apr 2024</span>
+          </div>
+          <div class="tl-line">
+            <div class="tl-node"></div>
+          </div>
+          <div class="tl-right">
+            <h3>Yellowen</h3>
+            <span class="tl-role">DevOps Engineer</span>
+            <ul>
+              <li>Improved CI/CD using <strong>GitHub Actions</strong>, speeding up deployments.</li>
+              <li>Increased reliability with <strong>Docker</strong> and <strong>Kubernetes</strong> for scalable infrastructure.</li>
+              <li>Improved deployment efficiency by supporting microservices setup using <strong>DockerCompose</strong> and Kubernetes.</li>
+              <li>Reduced setup time by <strong>~50%</strong> using <strong>Bash</strong> and <strong>Ansible</strong> automation.</li>
+              <li>Improved monitoring with <strong>Prometheus</strong>, <strong>Grafana</strong>, and <strong>Loki</strong>.</li>
+              <li>Reduced downtime by <strong>~30%</strong> by implementing uptime monitoring and <strong>backup scripts</strong>, improving system availability.</li>
+              <li>Improved release consistency by introducing basic CI with <strong>Dev</strong> and <strong>QA</strong> teams.</li>
+            </ul>
+
+            <span class="tl-role" style="margin-top:1.2rem; display:block;">Junior DevOps Engineer</span>
+            <ul>
+              <li>Assisted in maintaining and monitoring <strong>Linux</strong> servers and containerized services using <strong>Docker</strong>.</li>
+              <li>Supported CI/CD pipeline setup and maintenance using <strong>GitHub Actions</strong> under senior engineer guidance.</li>
+              <li>Automated routine operational tasks with <strong>Bash</strong> scripts, reducing manual workload.</li>
+              <li>Participated in incident response, log analysis, and basic troubleshooting across <strong>staging</strong> and <strong>production</strong> environments.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ─────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-eyebrow fade-in">
+        <span class="eyebrow-num">05.</span> Contact
+      </div>
+      <div class="contact-wrap fade-in">
+        <div class="contact-text">
+          <h2>Let's talk.</h2>
+          <p>Open to new opportunities, collaborations, or just a conversation about infrastructure and reliability.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:saborahmani@gmail.com" class="clink">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+            saborahmani@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/soheil-rahmani-devops" target="_blank" rel="noopener noreferrer" class="clink">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Soheilrahmanii" target="_blank" rel="noopener noreferrer" class="clink">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-brand">Soheil · DevOps / Platform</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
